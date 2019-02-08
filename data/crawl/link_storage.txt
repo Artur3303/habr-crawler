@@ -76,14 +76,6 @@ https://habr.com/ru/hub/home_automation/
 https://habr.com/ru/hub/easyelectronics/
 https://habr.com/ru/company/mailru/blog/439342/#habracut
 https://habr.com/ru/company/mailru/blog/439342/#comments
-https://habr.com/ru/users/sannikovdmitry/
-https://habr.com/ru/company/mailru/blog/439392/
-https://habr.com/ru/hub/bigdata/
-https://habr.com/ru/hub/data_mining/
-https://habr.com/ru/hub/machine_learning/
-https://habr.com/ru/hub/crazydev/
-https://habr.com/ru/company/mailru/blog/439392/#habracut
-https://habr.com/ru/company/mailru/blog/439392/#comments
 https://habr.com/ru/users/Andrey2008/
 https://habr.com/ru/company/pvs-studio/blog/439502/
 https://habr.com/ru/company/pvs-studio/
@@ -98,3 +90,11 @@ https://habr.com/ru/hub/Ecology/
 https://habr.com/ru/post/439430/#habracut
 https://habr.com/ru/post/439430/#comments
 https://habr.com/ru/users/pavel_smolnikov/
+https://habr.com/ru/post/439410/
+https://habr.com/ru/hub/algorithms/
+https://habr.com/ru/hub/artificial_intelligence/
+https://habr.com/ru/hub/machine_learning/
+https://habr.com/ru/hub/brain/
+https://habr.com/ru/post/439410/#habracut
+https://habr.com/ru/post/439410/#comments
+https://habr.com/ru/users/Tasha-txt/

@@ -2,7 +2,6 @@ package ru.kpfu.itis.crawler;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.*;
@@ -22,7 +21,6 @@ public class Spider {
         pagesToVisit = new LinkedList<>();
         pagesToVisit.add(startUrl);
         this.startUrl = startUrl;
-        LOGGER.info("Spider initialized. Start url is <" + startUrl + ">");
     }
 
     private String nextUrl() {
@@ -50,17 +48,17 @@ public class Spider {
             LOGGER.info("Number of links on the current page: " + urls.size());
             if (!urls.isEmpty()) {
                 pagesToVisit.addAll(urls);
-                LOGGER.info("New links added to queue");
             }
             pagesVisited.add(url);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     public void startCrawl() {
-        LOGGER.info("Crawl starting...");
         while (pagesVisited.size() < MAX_PAGES_TO_FETCH) {
+            LOGGER.info("Number of visited pages: " + pagesVisited.size());
             String url = nextUrl();
             crawl(url);
         }

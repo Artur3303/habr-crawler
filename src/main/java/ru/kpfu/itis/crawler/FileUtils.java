@@ -17,16 +17,12 @@ public class FileUtils {
         try (BufferedWriter lsw = new BufferedWriter(new FileWriter(new File(LINK_STORAGE_PATH), true))) {
             lsw.write(linkUrl + "\n");
             linksCount++;
-            LOGGER.info("Link has been written to file");
         } catch (IOException e) {
-            LOGGER.warning("Link has not been written to file");
             e.printStackTrace();
         }
         try (BufferedWriter tsw = new BufferedWriter(new FileWriter(new File(TEXT_STORAGE_PATH + linksCount + ".txt")))) {
             tsw.write(text);
-            LOGGER.info("Text has been saved");
         } catch (IOException e) {
-            LOGGER.warning("Text has not been written to file");
             e.printStackTrace();
         }
     }

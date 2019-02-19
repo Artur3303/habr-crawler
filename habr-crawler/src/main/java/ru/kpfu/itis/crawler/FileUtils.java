@@ -5,8 +5,8 @@ import java.util.logging.Logger;
 
 public class FileUtils {
 
-    private static final String LINK_STORAGE_PATH = "data/crawl/index.txt";
-    private static final String TEXT_STORAGE_PATH = "data/crawl/texts/";
+    private static final String LINK_STORAGE_PATH = "../data/crawl/index.txt";
+    private static final String TEXT_STORAGE_PATH = "../data/crawl/texts/";
 
     private static final Logger LOGGER = Logger.getLogger(FileUtils.class.getName());
 
